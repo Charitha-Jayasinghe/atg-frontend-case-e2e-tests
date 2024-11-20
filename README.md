@@ -80,5 +80,6 @@ view test report:npx playwright show-report reports
 
 
 
-
 Issue Identified(Planted bug):
+==============================
+ The "Display order" dropdown is not functioning correctly. Selecting "Oldest first" displays the latest data, and selecting "Most recent first" displays older data first. The sorting logic appears to be reversed, resulting in incorrect data ordering.
