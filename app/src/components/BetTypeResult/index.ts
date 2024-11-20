@@ -1,0 +1,1 @@
+export { BetTypeResult } from "./BetTypeResult";

@@ -1,0 +1,12 @@
+{
+  "name": "atg-frontend-case-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "install-browsers": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "atg-frontend-case",
+  "version": "1.0.0",
+  "description": "## Introduction Welcome to the team! We have just received a request from our shops to visualize the horse betting results in form of a single-page web application. You have been assigned to take on the challenge and develop a solution in **React**. We expect you to send us your solution as a zipped git archive.",
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atgse/atg-frontend-case.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atgse/atg-frontend-case/issues"
+  },
+  "homepage": "https://github.com/atgse/atg-frontend-case#readme",
+  "scripts": {
+    "dev": "webpack-cli serve --mode=development --env development --open --hot",
+    "build": "webpack --mode=production --env production --progress",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx,js,jsx}' --fix",
+    "prettier": "prettier --write './src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "devDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.0",
+    "@types/node": "16.18.2",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "@types/webpack": "5.28.0",
+    "@types/webpack-dev-server": "4.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "babel-jest": "^29.3.0",
+    "babel-preset-react-app": "^10.0.1",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-webpack-plugin": "3.2.0",
+    "fork-ts-checker-webpack-plugin": "7.2.13",
+    "html-webpack-plugin": "5.5.0",
+    "jest": "^29.2.2",
+    "jest-environment-jsdom": "^29.3.0",
+    "prettier": "2.7.1",
+    "ts-loader": "9.4.1",
+    "ts-node": "10.9.1",
+    "tsconfig-paths-webpack-plugin": "3.5.2",
+    "typescript": "4.8.4",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
