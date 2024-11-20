@@ -17,23 +17,11 @@ jobs:
       with:
         node-version: '16'
     
-    - name: Install app dependencies
-      run: |
-        cd app
-        npm install
-
-    - name: Start the app
-      run: |
-        cd app
-        npm run dev &
-    
-    - name: Wait for app to be ready
-      run: |
-        sleep 10
 
     - name: Install Playwright
       run: |
         cd tests
+        npm install
         npm install playwright
         npx playwright install
 
