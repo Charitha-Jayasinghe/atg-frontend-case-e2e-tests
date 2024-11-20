@@ -80,4 +80,4 @@ view test report:npx playwright show-report reports
 
 issue identified:
 
-Error Description: When selecting a bet type (e.g., V75), the default sorting option is set to "Most Recent", but the application displays older results instead of the most recent ones. This seems to be an issue with how the results are fetched or how the default sorting behavior is applied in the React components.
+Identified Issue: 
