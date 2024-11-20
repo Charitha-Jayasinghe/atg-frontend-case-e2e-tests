@@ -59,13 +59,13 @@ Then send an email to your contact at ATG with the git archive zip attached.
 
 ## How to Run the Project Locally
 
-### Steps : unzip the archive
+### Steps : unzip the archive or git clone : https://github.com/Charitha-Jayasinghe/atg-frontend-case-e2e-tests.git
 
 
 
 cd app
 npm install
-npm run dev
+npm run dev // please make sure run the react app. before run the test cases
 
 cd ..
 
@@ -78,6 +78,7 @@ npx playwright test
 view test report:npx playwright show-report reports
 
 
-issue identified:
 
-Identified Issue: 
+
+
+Issue Identified(Planted bug):
